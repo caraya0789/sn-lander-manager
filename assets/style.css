@@ -1,0 +1,58 @@
+#sn-lander-manager .plugins .row-actions{
+    padding: 0;
+}
+#sn-lander-manager .plugins .row-actions a{
+	padding: 4px 12px;
+    display: inline-block;
+    border-radius: 2px;
+}
+#sn-lander-manager .plugins td{
+	vertical-align: middle;
+}
+#sn-lander-manager .plugins tbody > tr:hover{
+	background: #00a0d2;
+}
+#sn-lander-manager .plugins tbody > tr:hover td,
+#sn-lander-manager .plugins tbody > tr:hover td span{
+	color: #fff;
+}
+#sn-lander-manager .plugins tbody > tr:hover .row-actions a{
+	background-color: #fff;
+}
+#sn-lander-manager .wp-upload-form #install-template-submit{
+	cursor: pointer;
+	margin: 15px 0 0 0;
+    color: #0073aa;
+    background-color: #fff;
+}
+#sn-lander-manager .wp-upload-form #install-template-submit:hover{
+	border-color: #008EC2;
+	background: #00a0d2;
+	color: #fff;
+}
+#sn-lander-manager .wp-upload-form #install-template-submit[disabled]{
+	cursor: initial;
+	background: #fafafa;
+	border-color: #ccc;
+	color: rgb(150, 150, 150);
+	font-weight: 400;
+}
+#sn-lander-manager h1{
+    margin-bottom: 10px;
+}
+#sn-lander-manager .btn-back{
+	margin: 0;
+}
+#sn-lander-manager form.sn_form{
+	background: #fafafa;
+	border: 1px solid #e5e5e5;
+	padding: 30px;
+	margin: 30px auto;
+	max-width: 380px;
+}
+#sn-lander-manager *:focus {outline: none;}
+
+#sn-lander-manager form .delete-btn{
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
